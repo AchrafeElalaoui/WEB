@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    font-size: 14px;
+}
+
+.menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    background-color: #c00;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Google Logo */
+.logo {
+    width: 272px;
+    margin-top: 100px;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mecIcon {
+    width: 30px;
+    height: 30px ;
+}
