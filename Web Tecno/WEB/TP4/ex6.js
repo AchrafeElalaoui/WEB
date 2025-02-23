@@ -1,12 +1,14 @@
-n=parseInt(prompt("enter the number (>0) :"))
-var compt=0
-for(i=2;i<n/2;i++){
-    if(n%i==0){
-        compt++
-        console.log(`le nombre ${n} n'est pas premier car est diviseble par ${i}`)
-        break
+function febon1(n) {
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    return febon1(n - 1) + febon1(n - 2);
+}
+function febon2(n){
+    for(let i=0;i<=n;i++){
+        console.log(febon1(i))
     }
 }
-if(compt==0){
-    console.log(`le nombre ${n} est premier`)
-}
+n=parseInt(prompt("enter the number (>0) :"))
+console.log(`febon1 : ${febon1(n)}`)
+console.log(`febon2 : `)
+febon2(n)
